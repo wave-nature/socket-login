@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 import useSocketStore from "../stores/socketStore";
 
 export default function Login() {
@@ -56,6 +57,9 @@ export default function Login() {
                 </button>
               </div>
             </form>
+            <p>
+              To create new account <Link to="/register">Click Here</Link>
+            </p>
           </div>
         </div>
       </div>
